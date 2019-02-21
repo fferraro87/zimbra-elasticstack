@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "5757c500-2d0f-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - authentication_failed and account_not_found",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"tags: authentication_failed AND tags: account_not_found\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "571de5c0-2d0e-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - authentication_failed and invalid_password",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"tags: authentication_failed AND tags: invalid_password\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a3a94690-2d0f-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - authentication_failed and locked_account",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"tags: authentication_failed AND tags: locked_account\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f61918b0-2d0f-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - suspended_ip",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"tags: suspended_ip\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bef2ae40-2d5b-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - mailbox_purge AND purging_message",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"(tags: mailbox_purge) AND (tags: purging_message)\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "6df1f1f0-2d5a-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - over_quota",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"tags: over_quota\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e2b422b0-2d5f-11e9-b0f3-27f367729c1d",
+    "_type": "search",
+    "_source": {
+      "title": "[zimbra] - delegated_access",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "account",
+        "oip",
+        "target_account",
+        "time",
+        "date"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8b584090-2950-11e9-b0f3-27f367729c1d\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"(tags: delegated_access AND \\\"doc=DelegateAuth\\\") AND NOT account: \\\"zimbra\\\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  }
+]
