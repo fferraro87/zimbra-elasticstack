@@ -62,7 +62,9 @@ filebeat.inputs:
   # that was (not) matched before or after or as long as a pattern is not matched based on negate.
   # Note: After is the equivalent to previous and before is the equivalent to to next in Logstash
   #multiline.match: after
-
+  multiline.pattern: ^\d{4}-\d{2}-\d{2}
+  multiline.negate: true
+  multiline.match: after
 
 #============================= Filebeat modules ===============================
 
