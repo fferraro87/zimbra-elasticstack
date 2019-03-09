@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "77c93600-2d11-11e9-b0f3-27f367729c1d",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[zimbra] - dashboard 1",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":39,\"y\":0,\"w\":9,\"h\":18,\"i\":\"1\"},\"id\":\"1f0cc240-2d0f-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"1\",\"title\":\"Login failed - Invalid password\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":30,\"y\":0,\"w\":9,\"h\":18,\"i\":\"2\"},\"id\":\"814eb850-2d0f-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"2\",\"title\":\"Login failed - Invalid account name\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":21,\"y\":0,\"w\":9,\"h\":18,\"i\":\"3\"},\"id\":\"ce555910-2d0f-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"3\",\"title\":\"Jetty filter - Locked accounts\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":15,\"y\":0,\"w\":6,\"h\":18,\"i\":\"4\"},\"id\":\"285eaa10-2d10-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"4\",\"title\":\"DoSFilter - Suspended IPs\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":21,\"y\":18,\"w\":9,\"h\":6,\"i\":\"6\"},\"id\":\"da2a7ed0-2d5c-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"6\",\"title\":\"Number of purged messages\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"asc\"}}}},\"gridData\":{\"x\":0,\"y\":18,\"w\":21,\"h\":18,\"i\":\"8\"},\"id\":\"595c6ad0-2d60-11e9-b0f3-27f367729c1d\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"version\":\"6.6.0\"},{\"gridData\":{\"x\":39,\"y\":18,\"w\":9,\"h\":18,\"i\":\"9\"},\"version\":\"6.6.0\",\"panelIndex\":\"9\",\"type\":\"visualization\",\"id\":\"6e88f640-2d64-11e9-b0f3-27f367729c1d\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":0,\"y\":0,\"w\":15,\"h\":18,\"i\":\"10\"},\"version\":\"6.6.0\",\"panelIndex\":\"10\",\"type\":\"visualization\",\"id\":\"8484c200-3da2-11e9-8937-df1f81910390\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}},{\"gridData\":{\"x\":21,\"y\":24,\"w\":18,\"h\":18,\"i\":\"11\"},\"version\":\"6.6.0\",\"panelIndex\":\"11\",\"type\":\"visualization\",\"id\":\"d9ce3890-2d5d-11e9-b0f3-27f367729c1d\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]
