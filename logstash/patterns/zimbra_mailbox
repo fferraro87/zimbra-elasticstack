@@ -1,0 +1,3 @@
+ZIMBRA_CLIENT [\w\/\.\s\-\(\)]*
+ZIMBRA_QTP_ID qtp[\d-]*
+ZIMBRA_SOAP http[\w\/:\.]*
