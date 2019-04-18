@@ -39,4 +39,4 @@ Once you add this configurations to your Elastic Stack and configure your Zimbra
 
 <h3>Uptime (heartbeats monitors != http)</h3>
 
-![](images/dash_uptime.png)
+![](images/uptime.png)
