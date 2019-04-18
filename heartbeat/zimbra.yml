@@ -1,0 +1,45 @@
+- type: http
+  schedule: '@every 5s'
+  urls: ["https://mail.domain.example:443"]
+  tags: ["zimbra"]
+  check.response.status: 200
+  ssl:
+      verification_mode: none
+
+- type: tcp
+  schedule: '@every 5s'
+  hosts: ["mail.domain.example"]
+  ports: [25]
+  tags: ["zimbra"]
+
+- type: tcp
+  schedule: '@every 5s'
+  hosts: ["172.16.1.67"]
+  ports: [389]
+  tags: ["zimbra"]
+
+- type: http
+  schedule: '@every 5s'
+  urls: ["https://172.16.1.68:7071", "https://172.16.1.68:8443"]
+  tags: ["zimbra"]
+  check.response.status: 200
+  ssl:
+    verification_mode: none
+
+- type: tcp
+  schedule: '@every 5s'
+  hosts: ["172.16.1.68"]
+  ports: [7025, 7143, 7110, 7993, 7995]
+  tags: ["zimbra"]
+
+- type: tcp
+  schedule: '@every 5s'
+  hosts: ["172.16.1.69"]
+  ports: [25, 143, 110, 993, 995]
+  tags: ["zimbra"]
+
+# 25    - smtp (7025)
+# 143   - imap (7143)
+# 993   - imaps (7993)
+# 110   - pop3 (7110)
+# 995   - pop3s (7995)
